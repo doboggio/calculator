@@ -1,0 +1,12 @@
+#calculator{
+    display: grid;
+}
+.button{
+    float:left;
+    display: block;
+    font-size: 36px;
+    padding: 10px;
+}
+.button:hover{
+    cursor: pointer;
+}
