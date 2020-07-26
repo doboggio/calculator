@@ -56,9 +56,7 @@ buttons.forEach((b) => {
             {
                 input = input*factor;
             }
-            //console.log("59 "+input);
             input += parseInt(b.id);
-            //console.log("61 "+input);
             for(var i = 0; i < decimalRightCount; i++)
             {
                 input /= factor;
@@ -69,8 +67,8 @@ buttons.forEach((b) => {
         else
         {
             input = input*factor + parseInt(b.id);
-            tbox.innerText = input.toString();
         }
+        tbox.innerText = input.toString();
         console.log(input.toString());
     });
 });

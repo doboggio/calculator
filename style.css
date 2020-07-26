@@ -3,8 +3,21 @@
     width: 114px;
     place-items: center;
 }
-#operators{
-    display: block;
+.operators{
+    display: inline-block;
+    width: 114px;
+    text-align: center;
+}
+.operators div{
+    float: left;
+    width: 22.5156px;
+    border-radius: 1px;
+    border: solid;
+}
+.operators:hover{
+    cursor: pointer;
+}
+input{
     width: 114px;
 }
 .button{
