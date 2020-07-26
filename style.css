@@ -1,5 +1,11 @@
-#calculator{
+#numPad{
     display: grid;
+    width: 114px;
+    place-items: center;
+}
+#operators{
+    display: block;
+    width: 114px;
 }
 .button{
     float:left;
